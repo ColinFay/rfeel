@@ -10,15 +10,15 @@
 #' @export
 #'
 #' @examples
-#' feelr(type = "score")
-#' feelr(type = "polarity")
+#' rfeel(type = "score")
+#' rfeel(type = "polarity")
 
-feelr <- function(type = c("polarity", "score")) {
+rfeel <- function(type = c("polarity", "score")) {
   type <- match.arg(type)
   if (type == "polarity"){
-    structure(feelr::sentiments_polarity, class = c("tbl_df", "tbl", "data.frame"))
+    structure(rfeel::sentiments_polarity, class = c("tbl_df", "tbl", "data.frame"))
   } else {
-    structure(feelr::sentiments_score, class = c("tbl_df", "tbl", "data.frame"))
+    structure(rfeel::sentiments_score, class = c("tbl_df", "tbl", "data.frame"))
   }
 }
 

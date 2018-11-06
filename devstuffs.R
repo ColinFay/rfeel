@@ -1,7 +1,7 @@
 library(usethis)
 use_build_ignore("devstuffs.R")
 
-colin::fill_desc("feelr", "Access the FEEL Lexicon", "The FEEL Lexicon in R, availabe as a data.frame.", "feelr")
+colin::fill_desc("rfeel", "Access the FEEL Lexicon", "The FEEL Lexicon in R, availabe as a data.frame.", "rfeel")
 
 # Sentiments
 library(tidyverse)

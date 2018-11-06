@@ -13,9 +13,9 @@ knitr::opts_chunk$set(
 )
 ```
 
-# feelr
+# rfeel
 
-`{feelr}` gives access to the FEEL lexicon by Amine Abdaoui, Jérôme Azé, Sandra Bringay et Pascal Poncelet. 
+`{rfeel}` gives access to the FEEL lexicon by Amine Abdaoui, Jérôme Azé, Sandra Bringay et Pascal Poncelet. 
 
 It was previously in [{proustr}](https://github.com/ColinFay/proustr) but moved here for license compatibility. 
 
@@ -34,7 +34,7 @@ There is no official license for the FEEL lexicon, but as it has been translated
 ## Installation
 
 ``` r
-remotes::install_github("colinfay/feelr")
+remotes::install_github("colinfay/rfeel")
 ```
 
 ## Example
@@ -42,7 +42,7 @@ remotes::install_github("colinfay/feelr")
 There are two types of data.frames. They can be called directly or via the function:
 
 ```{r eval = FALSE}
-feelr::feelr("score")
-feelr::feelr("polarity")
+rfeel::rfeel("score")
+rfeel::rfeel("polarity")
 ```
 

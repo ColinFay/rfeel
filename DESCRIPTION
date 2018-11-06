@@ -1,11 +1,11 @@
-Package: feelr
+Package: rfeel
 Title: Access the FEEL Lexicon
 Version: 0.0.0.9000
 Authors@R: person('Colin', 'Fay', email = 'contact@colinfay.me', role = c('cre', 'aut'))
 Description: The FEEL Lexicon in R, availabe as a data.frame.
 License: {{ License }}
 LazyData: true
-URL: https://github.com/ColinFay/feelr
-BugReports: https://github.com/ColinFay/feelr/issues
+URL: https://github.com/ColinFay/rfeel
+BugReports: https://github.com/ColinFay/rfeel/issues
 Encoding: UTF-8
 RoxygenNote: 6.1.0

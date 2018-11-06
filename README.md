@@ -1,9 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# feelr
+# rfeel
 
-`{feelr}` gives access to the FEEL lexicon by Amine Abdaoui, Jérôme Azé,
+`{rfeel}` gives access to the FEEL lexicon by Amine Abdaoui, Jérôme Azé,
 Sandra Bringay et Pascal Poncelet.
 
 It was previously in [{proustr}](https://github.com/ColinFay/proustr)
@@ -31,7 +31,7 @@ use](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
 ## Installation
 
 ``` r
-remotes::install_github("colinfay/feelr")
+remotes::install_github("colinfay/rfeel")
 ```
 
 ## Example
@@ -40,6 +40,6 @@ There are two types of data.frames. They can be called directly or via
 the function:
 
 ``` r
-feelr::feelr("score")
-feelr::feelr("polarity")
+rfeel::rfeel("score")
+rfeel::rfeel("polarity")
 ```
