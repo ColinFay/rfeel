@@ -17,6 +17,9 @@ dataset, we can safely assume it follows the same terms of use:
 > The lexicons mentioned in this page are available for direct download
 > and can be used freely for research purposes.
 
+[See all Terms of
+use](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
+
 ## Source
 
 > Amine Abdaoui, Jérôme Azé, Sandra Bringay et Pascal Poncelet. FEEL:
