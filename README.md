@@ -26,7 +26,7 @@ use](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
 > French Expanded Emotion Lexicon. Language Resources and Evaluation,
 > LRE 2016, pp 1-23.
 
-<http://www.lirmm.fr/~abdaoui/FEEL>
+<http://advanse.lirmm.fr/feel.php>
 
 ## Installation
 
